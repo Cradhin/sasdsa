@@ -1,7 +1,7 @@
 #include<stdio.h>
 void dsa(int a,int b,int c,int d,int q,int w,int e,int r) 
 { 
-result()
+printf("Result: ");
 if (a==q) printf(" -Bull\n"); 
 if (a==w) printf(" -Cow\n"); 
 if (a==e) printf(" -Cow\n"); 

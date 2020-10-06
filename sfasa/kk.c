@@ -26,20 +26,21 @@ printf("Try again\n");
 }//end
 ch=q;
 if (!isdigit(ch)) {t=1;
-printf("Try again\n")};
+printf("Try again\n");};
 ch=w;
 if (!isdigit(ch)) {t=1;
-printf("Try again\n")};
+printf("Try again\n");};
 ch=e;
 if (!isdigit(ch)) {t=1;
-printf("Try again\n")};
+printf("Try again\n");};
 ch=r;
 if (!isdigit(ch)) {t=1;
-printf("Try again\n")};
+printf("Try again\n");};
 n++;
 printf("a1=%d\nb1=%d\nc1=%d\nd1=%d\n",q,w,e,r);//del
 dsa(a,b,c,d,q,w,e,r);
 }
 if (t==0){printf("Congratulations!\nYou won in %d chances ",n);
 
+}
 }
